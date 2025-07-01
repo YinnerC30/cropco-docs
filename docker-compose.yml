@@ -8,4 +8,6 @@ services:
       - 8082:80
     volumes:
       - datasets-docs-cropco:/datasets
-volumes: datasets-docs-cropco
+
+volumes:
+  datasets-docs-cropco: {} # ¡Aquí está la corrección!
